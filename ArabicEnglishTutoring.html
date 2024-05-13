@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Language Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<style>
+body{ background: linear-gradient(45deg, white, #D1E4C4, white); 
+height:200vh; }
+
+
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:50px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:10;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 10px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: center;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: visible;}
+.p{text-align: center; font-size: 33px;}
+.p1 {font-size: 30px;}
+
+.div1 {display: grid; grid-template-columns: 900px; justify-content: center; margin-top: 20px; cursor:pointer;}
+.div2 {display: grid; grid-template-columns: 250px 1fr;}
+.div3  {display: grid; grid-template-columns: 150px 1fr 1fr 1fr; font-size:30px;}
+.div4 {text-align: left; font-size: 30px; padding-left: 45px;}
+.div5 {display: grid; grid-template-columns: 900px; justify-content: center;}
+.div6 {display: grid; grid-template-columns: 1fr 1fr;}
+.div7 {text-align: center; font-size: 40px;}
+.div8 {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+
+.convo{text-align:left; box-shadow: 1px 0 3px grey; border-radius: 3px; padding:10px; margin-bottom:5px;}
+
+.triangle{width:0; height:0; border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-bottom: 50px solid lightblue;}
+
+
+
+@media screen and (max-width: 1000px){
+.p{text-align: center; font-size: 25px;}
+.p1 {font-size: 22px;}
+
+.div1 {display: grid; grid-template-columns: 1fr;}
+.div2 {display: grid; grid-template-columns:1fr;}
+.div3  {display: grid; grid-template-columns:  1fr; font-size: 23px;}
+.div4 {text-align: left; font-size: 23px;}
+.div5 {display: grid; grid-template-columns: 1fr;}
+.div6 {display: grid; grid-template-columns: 1fr;}
+.div7 {text-align: center; font-size: 30px;}
+.div8 {display: grid; grid-template-columns: 1fr ;}
+.wrapper { overflow-x: hidden; width: 100%; background: linear-gradient(45deg, white, #D1E4C4, white);}
+
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:30px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:100;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 5px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: hidden;}
+}
+
+<span class="tooltipstext"> </span>
+
+.dropdown{ display: flex; }
+ .dropdown button{
+  background-color: #D1E4C4; color: black; padding: 10px 30px;
+  border:none; cursor:pointer; box-shadow: 5px 5px 7px black;
+  transition:0.05s; border-radius:4px;
+ }
+
+ .dropdown a{
+  display: flex; text-decoration: none; text-align: center; padding: 10px 23px; margin-top:10px; background-color: #D1E4C4;
+  color:black; box-shadow: 5px 5px 7px black; border-radius:4px; margin-left:5px; z-index:10;
+ }
+
+ .dropdown .content{
+   position: absolute; min-width:100px;
+  display:none;
+ }
+
+ .dropdown:hover .content{ 
+  display:flex;
+ }
+ .dropdown:hover button{
+  background-color: #F1F7ED; color:black;
+ }
+ .dropdown a:hover{
+  background-color: #F1F7ED; color:black;
+ }
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+<div class="dropdown">
+ <button>Contact Us</button>
+ <div class="content">
+  <a href="mailto: makaremalakhlaaq@gmail.com" target="_blank">Email</a>
+  <a href="https://wa.me/2348096813000" target="_blank">WhatsApp</a>
+  <a href="https://www.facebook.com/profile.php?id=100092246656320" target="_blank">Facebook</a>
+ </div>
+</div>
+
+<h1 class="tooltips">Welcome to Your Personalized Arabic and English Journey!</h1> 
+
+
+<div class="div1" style=" ">
+
+
+<div class="p1" style="text-align: left; background-color: #F1F7ED;  padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">
+Embark on a journey of language discovery with me as your dedicated tutor. Whether you're passionate about mastering Arabic or honing your English skills, I'm here to provide personalized guidance and support every step of the way.<br><br>
+<div style="text-align: center;"><b>Why Choose Me?</b></div><br>
+
+1. <b>Tailored Approach: </b>  As your personal tutor, I customize each lesson to suit your unique learning style, interests, and goals. Together, we'll focus on areas that need improvement while nurturing your strengths.<br><br>
+
+2. <b>Flexible Sessions: </b> With one-on-one tutoring, we can schedule sessions at your convenience, ensuring that learning fits seamlessly into your busy lifestyle.<br><br>
+
+3 .<b>Interactive Learning: </b> Dive into engaging and interactive lessons designed to enhance your language skills through conversation, exercises, and real-life scenarios.<br><br>
+
+4. <b>Encouraging Environment: </b> I provide a supportive and encouraging environment where you can feel comfortable making mistakes and learning from them. Your success is my priority.<br> <br>
+
+Whether you're a beginner embarking on your language journey or seeking to advance your proficiency, let's work together to achieve your language learning goals. Get started today and unlock the beauty of Arabic and English with personalized tutoring.
+
+</div>
+</div>
+</div>
+
+</div>
+
+<script>
+  var sound1 = new Audio();
+  sound1.src = "spectacles.mp3";
+</script>
+</body>
+</html>
